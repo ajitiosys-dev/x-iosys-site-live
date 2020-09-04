@@ -6726,3 +6726,151 @@ a.top-right-button.black-button.orange-shade button {
     display: block;
     font-size: 14px;
 }
+
+
+.io-pth-testimonials{
+	 width: 100%;
+    max-width: 100%!important;
+}
+
+
+.io-slide-containers {
+   width: 400px!important;
+   background: #fff;
+   border-radius: 6px;
+   margin-left: 32px;
+   padding: 42px 23px 42px 25px;
+   outline: none;
+   min-height: 203px!important;
+   box-shadow: 0px 0px 13px 0px #3d89ff1c;
+}
+
+
+.io-slide-containers h4, .io-slide-containers h5 {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+}
+
+.io-slide-containers p{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.83;
+    letter-spacing: 0.1px;
+}
+
+.io-slide-containers img {
+    width: 117px!important;
+    float: left;
+}
+
+div.author-main-div {
+    overflow: hidden;
+}
+
+span.author-name, span.author-des{
+
+	  font-family: Poppins;
+	  font-size: 12px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: normal;
+	  letter-spacing: 0.1px;
+	  vertical-align: text-top;
+}
+
+span.author-name{
+	font-weight: bold;
+}.author-avatar {
+    position: relative;
+    float: left;
+}
+
+span.des-auth{
+	font-size: 10px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: #9b9b9b;
+  position: absolute;
+  left: 34px;
+  top: 15px;
+}
+
+
+.io-testimonial-containers{
+	margin-right: -35%;
+}
+
+
+.author-avatar {
+    position: relative;
+    float: left;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+}
+
+.author-avatar:before {
+    content: '';
+    width: 1px;
+    height: 38px;
+    top: 8px;
+    bottom: 0;
+    right: -10px;
+    position: absolute;
+    background: #e4e4e4;
+}
+
+
+.author-name-div{
+	overflow: hidden;
+	display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    padding: 10px 0;
+	position:relative;
+	height:48px;
+	padding-left: 34px;
+}
+
+.io-testimonial-containers .slick-list{
+	padding:20px;
+}
+
+.io-testimonial-containers i{
+	cursor: pointer;
+}
+
+.arr-prev{
+	position: absolute;
+    top: 54%;
+    left: -21%;
+    right: 0;
+    width: 20px;
+	cursor: pointer;
+}
+
+.arr-next{
+	position: absolute;
+    top: 54%;
+    left: -16%;
+    right: 0;
+    width: 20px;
+	cursor:pointer;
+}
+
+.slick-list.draggable{
+	z-index:1;
+}
